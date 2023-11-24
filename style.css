@@ -1,0 +1,696 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.my-height{
+    display: flex;
+    height: 100%;
+    width:100%
+}
+
+.left{
+    height: 100vh;
+    width: 11%;
+    background-color: black;
+    color: white;
+    position: fixed;
+    z-index: 1;
+}
+
+.fcontainer{
+    /* border: 2px solid white; */
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    margin-left: -27px;
+}
+
+.icon1{
+    /* padding-left: 36px; */
+    padding-top: 27px;
+}
+
+.icon2{
+    color: gray;
+    padding-left: 45px;
+    /* padding-top: 10px; */
+}
+
+
+
+.fcontainer:hover{
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+/* secondary container for creating margin */
+.scontainer{
+margin-top: 25px;
+}
+
+.scontainer .fcontainer:hover{
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
+/* for navbar */
+.right{
+    background-color: rgb(21, 21, 21);
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    font-size: medium;
+    height: 7vh;
+    background-color: rgb(18, 18, 18);
+    color: white;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+  }
+
+  .link {
+    display: flex;
+    justify-content: space-around;
+    width: 63vh;
+    margin-right: 42px;
+  }
+
+  .link li a:hover {
+    color: white;
+  }
+
+  .link li a {
+    font-size: 23px;
+    text-decoration: none;
+    color: gray;
+    font-weight: 500;
+  }
+
+  .tre{
+    list-style: none;
+    width: 100px;
+    border: 2px solid gray;
+    display: flex;
+    justify-content: center;
+    border-radius: 23px;
+    height: 47px;
+    background-color: white;
+    color: black;
+    align-items: center;
+    text-align: center;
+  }
+  .tre:hover{
+    color: black;
+    transition: 0.4s;
+    width: 105px;
+    height: 50px;
+    color: black;
+  }
+  .tre a:hover{
+    color: black;
+    box-shadow: 0.5svb;
+    transition: 0.4s;
+    width: 105px;
+    height: 50px;
+    color: black;
+  }
+
+  .logo{
+    display: flex;
+
+  }
+  .logo h3 :hover{
+    color: white;
+    cursor: pointer;
+  }
+/* fornavbar */
+/* navbelowcontect */
+.navbelowcontent{
+    display: flex;
+    background-color: rgb(21, 21, 21);
+    color: white;
+    justify-content: space-between;
+}
+.navbelowcontent h1{
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 43px;
+    margin-top: 25px;
+}
+
+.navbelowcontent p{
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 35px;
+    margin-top: 42px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    color: #4f4d4d;
+}
+.navbelowcontent p a{
+    color: #4f4d4d;
+}
+/* navbelowcontect */
+/* thirdcontainer means tcontainer */
+.tcontainer{
+    background-color: rgb(21, 21, 21);
+    padding-left: 12px;
+}
+
+.tfcontainer{
+    display: flex;
+    align-items: center;
+    height: 324px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 53px;
+}
+
+.tffcontainer{
+    background-color: #201f1f;
+    height: 266px;
+    width: 179px;
+    display: flex;
+    flex-direction: column;
+    margin: 19px 15px;
+}
+
+.tffcontainer:hover{
+    background-color: rgb(39, 39, 39);
+    .seticon{
+        transition: 0.3s;
+        visibility: visible;
+        top: 43px;
+        left: 98px;
+        font-size: 50px;
+        font-weight: 700;
+    }
+}
+
+.imagep{
+    display: flex;
+    align-items: center;
+    border: 2px solid;
+    height: 151px;
+    width: 159px;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    position: relative;
+    top: 12px;
+    left: 10px;
+    border-radius: 5px;
+    background-image: url('./images/pwacefulpiano.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: visible;
+    z-index: 2;
+}
+
+.imagep1{
+    display: flex;
+    align-items: center;
+    border: 2px solid;
+    height: 151px;
+    width: 159px;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    position: relative;
+    top: 12px;
+    left: 10px;
+    border-radius: 5px;
+    background-image: url('deepfocus.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: visible;
+    z-index: 2;
+}
+
+.imagep2{
+    display: flex;
+    align-items: center;
+    border: 2px solid;
+    height: 151px;
+    width: 159px;
+    position: relative;
+    top: 12px;
+    left: 10px;
+    border-radius: 5px;
+    background-image: url('./images/instrumentalstudy.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: visible;
+    z-index: 2;
+}
+
+.imagep3{
+    display: flex;
+    align-items: center;
+    border: 2px solid;
+    height: 151px;
+    width: 159px;
+    position: relative;
+    top: 12px;
+    left: 10px;
+    border-radius: 5px;
+    background-image: url('./images/workdaylounge.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: visible;
+    z-index: 2;
+}
+
+.imagep4{
+    display: flex;
+    align-items: center;
+    border: 2px solid;
+    height: 151px;
+    width: 159px;
+    position: relative;
+    top: 12px;
+    left: 10px;
+    border-radius: 5px;
+    background-image: url('./images/focusflow.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: visible;
+    z-index: 2;
+}
+
+.imagep5{
+    display: flex;
+    align-items: center;
+    border: 2px solid;
+    height: 151px;
+    width: 159px;
+    position: relative;
+    top: 12px;
+    left: 10px;
+    border-radius: 5px;
+    background-image: url('./images/beatsto.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: visible;
+    z-index: 2;
+}
+
+
+.imagep6{
+    display: flex;
+    align-items: center;
+    border: 2px solid;
+    height: 151px;
+    width: 159px;
+    position: relative;
+    top: 12px;
+    left: 10px;
+    border-radius: 5px;
+    background-image: url('./images/relaxing.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: visible;
+    z-index: 2;
+}
+
+
+
+.imagep7{
+    display: flex;
+    align-items: center;
+    border: 2px solid;
+    height: 151px;
+    width: 159px;
+    position: relative;
+    top: 12px;
+    left: 10px;
+    border-radius: 5px;
+    background-image: url('./images/relaxing.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: visible;
+    z-index: 2;
+}
+
+.imagep8{
+    display: flex;
+    align-items: center;
+    border: 2px solid;
+    height: 151px;
+    width: 159px;
+    position: relative;
+    top: 12px;
+    left: 10px;
+    border-radius: 5px;
+    background-image: url('./images/relaxing.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: visible;
+    z-index: 2;
+}
+
+
+.imagep9{
+    display: flex;
+    align-items: center;
+    border: 2px solid;
+    height: 151px;
+    width: 159px;
+    position: relative;
+    top: 12px;
+    left: 10px;
+    border-radius: 5px;
+    background-image: url('./images/rapcaviar.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: visible;
+    z-index: 2;
+}
+
+.imagep10{
+    display: flex;
+    align-items: center;
+    border: 2px solid;
+    height: 151px;
+    width: 159px;
+    position: relative;
+    top: 12px;
+    left: 10px;
+    border-radius: 5px;
+    background-image: url('./images/allout.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: visible;
+    z-index: 2;
+}
+
+.imagep11{
+    display: flex;
+    align-items: center;
+    border: 2px solid;
+    height: 151px;
+    width: 159px;
+    position: relative;
+    top: 12px;
+    left: 10px;
+    border-radius: 5px;
+    background-image: url('./images/rockclasses.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: visible;
+    z-index: 2;
+}
+
+.imagep12{
+    display: flex;
+    align-items: center;
+    border: 2px solid;
+    height: 151px;
+    width: 159px;
+    position: relative;
+    top: 12px;
+    left: 10px;
+    border-radius: 5px;
+    background-image: url('./images/chillhits.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: visible;
+    z-index: 2;
+}
+
+.imagep13{
+    display: flex;
+    align-items: center;
+    border: 2px solid;
+    height: 151px;
+    width: 159px;
+    position: relative;
+    top: 12px;
+    left: 10px;
+    border-radius: 5px;
+    background-image: url('./images/vivalatino.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: visible;
+    z-index: 2;
+}
+
+.imagep14{
+    display: flex;
+    align-items: center;
+    border: 2px solid;
+    height: 151px;
+    width: 159px;
+    position: relative;
+    top: 12px;
+    left: 10px;
+    border-radius: 5px;
+    background-image: url('./images/megahit.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: visible;
+    z-index: 2;
+}
+
+.imagep15{
+    display: flex;
+    align-items: center;
+    border: 2px solid;
+    height: 151px;
+    width: 159px;
+    position: relative;
+    top: 12px;
+    left: 10px;
+    border-radius: 5px;
+    background-image: url('./images/allout80s.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: visible;
+    z-index: 2;
+}
+
+.imagep16{
+    display: flex;
+    align-items: center;
+    border: 2px solid;
+    height: 151px;
+    width: 159px;
+    position: relative;
+    top: 12px;
+    left: 10px;
+    border-radius: 5px;
+    background-image: url('./images/soundmumbai.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: visible;
+    z-index: 2;
+}
+
+.imagep17{
+    display: flex;
+    align-items: center;
+    border: 2px solid;
+    height: 151px;
+    width: 159px;
+    position: relative;
+    top: 12px;
+    left: 10px;
+    border-radius: 5px;
+    background-image: url('./images/soundofkol.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: visible;
+    z-index: 2;
+}
+
+.imagep18{
+    display: flex;
+    align-items: center;
+    border: 2px solid;
+    height: 151px;
+    width: 159px;
+    position: relative;
+    top: 12px;
+    left: 10px;
+    border-radius: 5px;
+    background-image: url('./images/soundofdelhi.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: visible;
+    z-index: 2;
+}
+
+.imagep19{
+    display: flex;
+    align-items: center;
+    border: 2px solid;
+    height: 151px;
+    width: 159px;
+    position: relative;
+    top: 12px;
+    left: 10px;
+    border-radius: 5px;
+    background-image: url('./images/soundofbeng.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: visible;
+    z-index: 2;
+}
+
+.imagep20{
+    display: flex;
+    align-items: center;
+    border: 2px solid;
+    height: 151px;
+    width: 159px;
+    position: relative;
+    top: 12px;
+    left: 10px;
+    border-radius: 5px;
+    background-image: url('./images/soundofchenn.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: visible;
+    z-index: 2;
+}
+
+
+
+.imagep21{
+    display: flex;
+    align-items: center;
+    border: 2px solid;
+    height: 151px;
+    width: 159px;
+    position: relative;
+    top: 12px;
+    left: 10px;
+    border-radius: 5px;
+    background-image: url('./images/soundofhyd.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: visible;
+    z-index: 2;
+}
+
+.imagep22{
+    display: flex;
+    align-items: center;
+    border: 2px solid;
+    height: 151px;
+    width: 159px;
+    position: relative;
+    top: 12px;
+    left: 10px;
+    border-radius: 5px;
+    background-image: url('./images/sleep.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: visible;
+    z-index: 2;
+}
+
+.seticon{
+    color: green;
+    position: relative;
+    top: 53px;
+    left: 117px;
+    font-size: 38px;
+    font-weight: 600;
+    visibility: hidden;
+}
+
+.tffcontainer h1:hover{
+    font-size: larger;
+    cursor: pointer;
+    color: rgb(108, 240, 56);
+}
+
+.below-content{
+    padding-left: 15px;
+    padding-top: 17px;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.below-content1{
+    padding-left: 15px;
+    /* padding-top: -26px; */
+    font-size: 11px;
+    font-weight: 600;
+    color: #bdb0b0;
+}
+/* thirdcontainer means tcontainer */
+
+/* fourthcontainer content */
+.fourthcontainer{
+    display: flex;
+    background-color: rgb(21, 21, 21);
+    color: white;
+}
+
+.flist{
+    margin-left: 16px;
+    margin-top: 75px;
+}
+
+.flist tr td{
+    padding-top: 12px;
+              color: gray;
+              font-size: 15px;
+              font-weight: 500;
+}
+
+.flist tr td a{
+    color: gray;
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.flist tr td a:hover{
+    color: white;
+    text-decoration: underline;
+
+}
+
+.aa{
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.forsocialmedia{
+    display: flex;
+    justify-content: end;
+    margin-top: 75px;
+    position: relative;
+    right: 30px;
+}
+
+.forsocialmedia p{
+    height: 41px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #282626;
+    margin: 0px 10px;
+}
+
+.forsocialmedia p:hover{
+    background-color: gray
+}
+
+.last{
+    margin: 25px 25px;
+}
+/* fourthcontainer content */

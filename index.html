@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="my-height ">
+    <div class="left">
+      <div class="container fcontainer">
+        <h1 class="icon1" style="padding-bottom: 26px; padding-left: 23px; margin-left: 5px">
+          <i class="bi bi-spotify"></i>
+        </h1>
+        <p style="
+                padding-left: 5px;
+                padding-top: 10px;
+                font-weight: bold;
+                font-size: 30px;
+              ">
+          Spotify
+        </p>
+      </div>
+      <div style="margin-top: -4px;">
+        <div class="container icon2 fcontainer">
+          <h4><i class="icon bi bi-house-door-fill"></i></h4>
+          <p style="padding-left: 25px; padding-top: 5px; font-size: 14px; font-weight: bold">
+            Home
+          </p>
+        </div>
+        <div class="container icon2 fcontainer">
+          <h4><i class="bi bi-search"></i></h4>
+          <p style="padding-left: 25px; padding-top: 5px; font-size: 14px ;font-weight: bold">
+            search
+          </p>
+        </div>
+        <div class="container icon2 fcontainer">
+          <h4><i class="bi bi-music-note-list"></i></h4>
+          <p style="padding-left: 25px; padding-top: 5px; font-size: 14px;font-weight: bold">
+            Your Library
+          </p>
+        </div>
+      </div>
+      <div class="scontainer">
+        <div class="container icon2 fcontainer">
+          <h4><i class="bi bi-plus-square-fill"></i></h4>
+          <p style="padding-left: 25px; padding-top: 5px; font-size: 14px; font-weight: bold">
+            Create Playlist
+          </p>
+        </div>
+        <div class="container icon2 fcontainer">
+          <h4><i class="bi bi-chat-square-heart-fill"></i></h4>
+          <p style="padding-left: 25px; padding-top: 5px; font-size: 14px; font-weight: bold">
+            Liked Songs
+          </p>
+        </div>
+      </div>
+    </div>
+    <div style="    margin-left: 11%;
+      background-color: rgb(21, 21, 21);
+      width: 100%; height: 100vw;">
+      <div class="right">
+        <nav class="navbar">
+          <div class="logo">
+            <h3 style="margin-left: 28px; color: gray;"><i class="bi bi-caret-left-fill"></i></h3>
+            <h3 style="margin-left: 23px; color: gray;"><i class="bi bi-caret-right-fill"></i></h3>
+          </div>
+          <div class="link">
+            <li style="list-style: none;">
+              <a href="">Premimum</a>
+            </li>
+            <li style="list-style: none;">
+              <a href="">Support</a>
+            </li>
+            <li style="list-style: none;">
+              <a href="">Download</a>
+            </li>
+            <li style="list-style: none;">
+              |
+            </li>
+            <li style="list-style: none;">
+              <a href="">Signup</a>
+            </li>
+            <li style="list-style: none; " class="tre">
+              <a href="">Login</a>
+            </li>
+          </div>
+        </nav>
+        <div class="navbelowcontent">
+          <h1>Focus</h1>
+          <p><a href="">show all</a></p>
+        </div>
+        <div class="tcontainer">
+          <!-- this is my third container created by mself not bootstrap -->
+          <div class="tfcontainer">
+            <div class="tffcontainer">
+              <div class="imagep">
+                <h1 class="seticon"><i class="bi bi-play-circle-fill" onclick="song()"></i></h1>
+                <audio src="eco-technology-145636.mp3" id="audio"></audio>
+              </div>
+              <p class="below-content">peaceful piano</p>
+              <p class="below-content1">Keep calm and focus with ambient and pos..</p>
+            </div>
+            <div class="tffcontainer">
+              <div class="imagep1">
+                <h1 class="seticon"><i class="bi bi-play-circle-fill" onclick="song()"></i></h1>
+                <audio src="eco-technology-145636.mp3" id="audio"></audio>
+              </div>
+              <p class="below-content">Deep Focus</p>
+              <p class="below-content1">Keep calm and focus with ambient and pos..</p>
+            </div>
+            <div class="tffcontainer">
+              <div class="imagep2">
+                <h1 class="seticon"><i class="bi bi-play-circle-fill" onclick="song()"></i></h1>
+              </div>
+              <p class="below-content">Instrumental Study</p>
+              <p class="below-content1">Keep calm and focus with ambient and pos..</p>
+            </div>
+            <div class="tffcontainer">
+              <div class="imagep3">
+                <h1 class="seticon"><i class="bi bi-play-circle-fill" onclick="song()"></i></h1>
+              </div>
+              <p class="below-content">Focus Flow</p>
+              <p class="below-content1">Keep calm and focus with ambient and pos..</p>
+            </div>
+            <div class="tffcontainer">
+              <div class="imagep4">
+                <h1 class="seticon"><i class="bi bi-play-circle-fill" onclick="song()"></i></h1>
+              </div>
+              <p class="below-content">Workday Lounge</p>
+              <p class="below-content1">Keep calm and focus with ambient and pos..</p>
+            </div>
+            <div class="tffcontainer">
+              <div class="imagep5">
+                <h1 class="seticon"><i class="bi bi-play-circle-fill" onclick="song()"></i></h1>
+              </div>
+              <p class="below-content">Beats to thik to</p>
+              <p class="below-content1">Keep calm and focus with ambient and pos..</p>
+            </div>
+            <div class="tffcontainer">
+              <div class="imagep">
+                <h1 class="seticon"><i class="bi bi-play-circle-fill" onclick="song()"></i></h1>
+              </div>
+              <p class="below-content">Reading Adventure</p>
+              <p class="below-content1">Keep calm and focus with ambient and pos..</p>
+            </div>
+            <div class="tffcontainer">
+              <div class="imagep7">
+                <h1 class="seticon"><i class="bi bi-play-circle-fill" onclick="song()"></i></h1>
+              </div>
+              <p class="below-content">Relaxing Reading</p>
+              <p class="below-content1">Keep calm and focus with ambient and pos..</p>
+            </div>
+          </div>
+        </div>
+        <div class="navbelowcontent">
+          <h1>Spotify Playlist</h1>
+        </div>
+        <div class="tcontainer">
+          <!-- this is my third container created by mself not bootstrap -->
+          <div class="tfcontainer">
+            <div class="tffcontainer">
+              <div class="imagep">
+                <h1 class="seticon"><i class="bi bi-play-circle-fill" onclick="song()"></i></h1>
+                <audio src="eco-technology-145636.mp3" id="audio"></audio>
+              </div>
+              <p class="below-content">RapCaviar</p>
+              <p class="below-content1">Keep calm and focus with ambient and pos..</p>
+            </div>
+            <div class="tffcontainer">
+              <div class="imagep9">
+                <h1 class="seticon"><i class="bi bi-play-circle-fill" onclick="song()"></i></h1>
+                <audio src="eco-technology-145636.mp3" id="audio"></audio>
+              </div>
+              <p class="below-content">RapCaviar</p>
+              <p class="below-content1">Keep calm and focus with ambient and pos..</p>
+            </div>
+            <div class="tffcontainer">
+              <div class="imagep10">
+                <h1 class="seticon"><i class="bi bi-play-circle-fill" onclick="song()"></i></h1>
+              </div>
+              <p class="below-content">All Out 2010s</p>
+              <p class="below-content1">Keep calm and focus with ambient and pos..</p>
+            </div>
+            <div class="tffcontainer">
+              <div class="imagep11">
+                <h1 class="seticon"><i class="bi bi-play-circle-fill" onclick="song()"></i></h1>
+              </div>
+              <p class="below-content">Rock Classics</p>
+              <p class="below-content1">Keep calm and focus with ambient and pos..</p>
+            </div>
+            <div class="tffcontainer">
+              <div class="imagep12">
+                <h1 class="seticon"><i class="bi bi-play-circle-fill" onclick="song()"></i></h1>
+              </div>
+              <p class="below-content">Chill Hits</p>
+              <p class="below-content1">Keep calm and focus with ambient and pos..</p>
+            </div>
+            <div class="tffcontainer">
+              <div class="imagep13">
+                <h1 class="seticon"><i class="bi bi-play-circle-fill" onclick="song()"></i></h1>
+              </div>
+              <p class="below-content">Viva Latino</p>
+              <p class="below-content1">Keep calm and focus with ambient and pos..</p>
+            </div>
+            <div class="tffcontainer">
+              <div class="imagep14">
+                <h1 class="seticon"><i class="bi bi-play-circle-fill" onclick="song()"></i></h1>
+              </div>
+              <p class="below-content">Mega Hit Mix</p>
+              <p class="below-content1">Keep calm and focus with ambient and pos..</p>
+            </div>
+            <div class="tffcontainer">
+              <div class="imagep15">
+                <h1 class="seticon"><i class="bi bi-play-circle-fill" onclick="song()"></i></h1>
+              </div>
+              <p class="below-content">All Out 80s</p>
+              <p class="below-content1">Keep calm and focus with ambient and pos..</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="navbelowcontent">
+          <h1>Sleep</h1>
+        </div>
+        <div class="tcontainer">
+          <!-- this is my third container created by mself not bootstrap -->
+          <div class="tfcontainer">
+            <div class="tffcontainer">
+              <div class="imagep22">
+                <h1 class="seticon"><i class="bi bi-play-circle-fill" onclick="song()"></i></h1>
+                <audio src="eco-technology-145636.mp3" id="audio"></audio>
+              </div>
+              <p class="below-content">Sleep</p>
+              <p class="below-content1">Keep calm and focus with ambient and pos..</p>
+            </div>
+            <div class="tffcontainer">
+              <div class="imagep22">
+                <h1 class="seticon"><i class="bi bi-play-circle-fill" onclick="song()"></i></h1>
+                <audio src="eco-technology-145636.mp3" id="audio"></audio>
+              </div>
+              <p class="below-content">DayDreamer</p>
+              <p class="below-content1">Keep calm and focus with ambient and pos..</p>
+            </div>
+            
+        </div>
+
+        <div class="navbelowcontent">
+          <h1>Sound of India</h1>
+        </div>
+        <div class="tcontainer">
+          <!-- this is my third container created by mself not bootstrap -->
+          <div class="tfcontainer">
+            <div class="tffcontainer">
+              <div class="imagep16">
+                <h1 class="seticon"><i class="bi bi-play-circle-fill" onclick="song()"></i></h1>
+                <audio src="eco-technology-145636.mp3" id="audio"></audio>
+              </div>
+              <p class="below-content">Sound of Mum...</p>
+              <p class="below-content1">Keep calm and focus with ambient and pos..</p>
+            </div>
+            <div class="tffcontainer">
+              <div class="imagep17">
+                <h1 class="seticon"><i class="bi bi-play-circle-fill" onclick="song()"></i></h1>
+                <audio src="eco-technology-145636.mp3" id="audio"></audio>
+              </div>
+              <p class="below-content">Sound Of Kolk...</p>
+              <p class="below-content1">Keep calm and focus with ambient and pos..</p>
+            </div>
+            <div class="tffcontainer">
+              <div class="imagep18">
+                <h1 class="seticon"><i class="bi bi-play-circle-fill" onclick="song()"></i></h1>
+              </div>
+              <p class="below-content">Sound of Delh...</p>
+              <p class="below-content1">Keep calm and focus with ambient and pos..</p>
+            </div>
+            <div class="tffcontainer">
+              <div class="imagep19">
+                <h1 class="seticon"><i class="bi bi-play-circle-fill" onclick="song()"></i></h1>
+              </div>
+              <p class="below-content">Sound of Beng...</p>
+              <p class="below-content1">Keep calm and focus with ambient and pos..</p>
+            </div>
+            <div class="tffcontainer">
+              <div class="imagep20">
+                <h1 class="seticon"><i class="bi bi-play-circle-fill" onclick="song()"></i></h1>
+              </div>
+              <p class="below-content">Sound of Chenn...</p>
+              <p class="below-content1">Keep calm and focus with ambient and pos..</p>
+            </div>
+            <div class="tffcontainer">
+              <div class="imagep21">
+                <h1 class="seticon"><i class="bi bi-play-circle-fill" onclick="song()"></i></h1>
+              </div>
+              <p class="below-content">Sound of Hydr...</p>
+              <p class="below-content1">Keep calm and focus with ambient and pos..</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="fourthcontainer">
+        <div class="container aa">
+          <div class="flist">
+            <table>
+              <tr>
+                <th style="font-size: 18px;">company</th>
+              </tr>
+              <tr>
+                <td><a href="./about.html">About</a></td>
+              </tr>
+              <tr>
+                <td><a href="./about.html">Jobs</a></td>
+              </tr>
+              <tr>
+                <td><a href="./about.html">For the Record</a></td>
+              </tr>
+            </table>
+          </div>
+          <div class="flist" style="margin: 75px 119px;">
+            <table>
+              <tr>
+                <th style="font-size: 18px;">communities</th>
+              </tr>
+              <tr>
+                <td><a href="./about.html">For Artists</a>
+                </td>
+              </tr>
+              <tr>
+                <td><a href="./about.html">Developers</a>
+                </td>
+              </tr>
+              <tr>
+                <td><a href="./about.html">Advertising</a>
+                </td>
+              </tr>
+              <tr>
+                <td><a href="./about.html">Investors</a>
+                </td> 
+              </tr>
+              <tr>
+                <td><a href="./about.html">Vendors</a>
+                </td>
+              </tr>
+              <tr>
+                <td><a href="./about.html">Spotify for Work</a></td>
+              </tr>
+            </table>
+          </div>
+          <div class="flist">
+            <table>
+              <tr>
+                <th style="font-size: 18px;">useful links</th>
+              </tr>
+              <tr>
+                <td><a href="./about.html">Support</a>
+                </td>
+              </tr>
+              <tr><td><a href="./about.html">Free Mobile App</a></td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div class="container">
+          <div class="forsocialmedia">
+            <p class="rounded-circle"><i class="bi bi-instagram"></i></p>
+            <p class="rounded-circle"><i class="bi bi-twitter"></i></p>
+            <p class="rounded-circle"><i class="bi bi-facebook"></i></p>
+          </div>
+        </div>
+      </div>
+      <div><hr style="color: white; ">
+      </div>
+      <div class="last">
+        <p style="font-size: 11px;
+        color: rgb(179 173 173);
+        font-weight: 400;"><i class="bi bi-c-circle"></i> 2023 Spotify AB</p>
+      </div>
+    </div>
+    <div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous">
+  </script>
+<script>
+  function song() {
+    var audio = document.getElementById("audio");
+    audio.play();
+  }
+</script>
+
+</html>
